@@ -19,6 +19,13 @@ function tweakjp_sd_shortcode() {
 }
 add_shortcode( 'jpshare', 'tweakjp_sd_shortcode' );
 
+else :
+
+function tweakjp_sd_rm_shortcode( $content ) {
+	return str_replace( '[jpshare]', '', $content );
+}
+add_filter( 'the_content', 'tweakjp_sd_rm_shortcode' );
+
 endif;
 
 ?>
