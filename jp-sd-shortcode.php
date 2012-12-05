@@ -28,5 +28,3 @@ function tweakjp_sd_enable() {
 	}
 }
 add_action( 'plugins_loaded', 'tweakjp_sd_enable' );
-
-?>
