@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Jetpack Sharing butttons shortcode
- * Plugin URI: http://wordpress.org/extend/plugins/jetpack/
+ * Plugin URI: http://wordpress.org/extend/plugins/jetpack-sharing-butttons-shortcode/
  * Description: Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside your posts thanks to the [jpshare] shortcode
  * Author: Jeremy Herve
  * Version: 1.2
