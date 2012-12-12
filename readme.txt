@@ -3,11 +3,13 @@ Contributors: jeherve, hd-J
 Tags: WordPress.com, Jetpack, sharedaddy, shortcode 
 Requires at least: 3.2
 Tested up to: 3.5
-Stable tag: 1.1
+Stable tag: 1.2
 
 Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside your posts thanks to the [jpshare] shortcode
 
 == Description ==
+
+Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside your posts thanks to the [jpshare] shortcode
 
 == Installation ==
 
@@ -19,6 +21,9 @@ Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside
 6. Enjoy, and share! :)
 
 == Changelog ==
+
+= 1.2 =
+* Make changes to the plugin logic
 
 = 1.1 =
 * Check that Jetpack and the Sharedaddy module are active
