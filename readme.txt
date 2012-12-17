@@ -1,4 +1,4 @@
-=== Jetpack Sharing butttons shortcode ===
+=== Jetpack Sharing buttons shortcode ===
 Contributors: jeherve, hd-J
 Tags: WordPress.com, Jetpack, sharedaddy, shortcode, share 
 Requires at least: 3.2
