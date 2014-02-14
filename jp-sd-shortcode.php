@@ -1,13 +1,15 @@
 <?php
 /*
- * Plugin Name: Jetpack Sharing buttons shortcode
- * Plugin URI: http://wordpress.org/extend/plugins/jetpack-sharing-butttons-shortcode/
+ * Plugin Name: [MyDesignStudio] Jetpack Sharing buttons shortcode
+ * Plugin URI: https://github.com/alexbarmin/mds-jp-sd-shortcode
  * Description: Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside your posts thanks to the [jpshare] shortcode
  * Author: Jeremy Herve
- * Version: 1.2
+ * Version: 1.3
  * Author URI: http://jeremyherve.com
  * License: GPL2+
  * Text Domain: jetpack
+ * GitHub Plugin URI: https://github.com/alexbarmin/mds-jp-sd-shortcode
+ * GitHub Branch:     master
  */
 
 function tweakjp_sd_shortcode() {
