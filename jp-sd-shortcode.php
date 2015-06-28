@@ -1,17 +1,19 @@
 <?php
 /*
- * Plugin Name: Jetpack Sharing buttons shortcode
- * Plugin URI: http://wordpress.org/extend/plugins/jetpack-sharing-butttons-shortcode/
+ * Plugin Name: Sharing buttons shortcode for Jetpack
+ * Plugin URI: http://wordpress.org/plugins/jetpack-sharing-butttons-shortcode/
  * Description: Extends the Jetpack plugin and allows you to add sharing buttons anywhere inside your posts thanks to the [jpshare] shortcode
  * Author: Jeremy Herve
- * Version: 1.2
- * Author URI: http://jeremyherve.com
+ * Version: 1.2.1
+ * Author URI: http://jeremy.hu
  * License: GPL2+
  * Text Domain: jetpack
  */
 
 function tweakjp_sd_shortcode() {
-   return sharing_display();
+	if ( function_exists( 'sharing_display' ) ) {
+		return sharing_display();
+	}
 }
 
 function tweakjp_sd_rm_shortcode( $content ) {
