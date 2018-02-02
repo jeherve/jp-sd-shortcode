@@ -15,7 +15,7 @@ function tweakjp_sd_shortcode() {
 	if (
 		class_exists( 'Jetpack' ) &&
 		method_exists( 'Jetpack', 'get_active_modules' ) &&
-		in_array( 'sharedaddy', Jetpack::get_active_modules() &&
+		in_array( 'sharedaddy', Jetpack::get_active_modules() ) &&
 		function_exists( 'sharing_display' )
 	) {
 		$output = sharing_display();
